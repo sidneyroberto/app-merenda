@@ -1,0 +1,62 @@
+.container {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notPublishedMessage {
+  font-family: 'bold';
+  font-size: 28px;
+}
+
+.snackCard {
+  width: 600px;
+  border-radius: 20px;
+  background: #f2f2f2;
+  box-shadow: 20px 20px 60px #cecece,
+    -20px -20px 60px #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.snackThumb {
+  width: 90%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.snackTitle {
+  font-family: 'bold';
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.snackDescription {
+  font-family: 'regular';
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.snackRateSentence {
+  font-family: 'bold';
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .snackCard {
+    width: 90%;
+  }
+
+  .snackTitle {
+    font-size: 20px;
+  }
+
+  .snackDescription {
+    font-size: 18px;  
+  }
+}
